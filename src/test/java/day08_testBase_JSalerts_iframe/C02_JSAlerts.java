@@ -24,7 +24,7 @@ public class C02_JSAlerts extends TestBaseBeforeClass {
            method'larini kullanabiliriz.
      */
 
-    /*
+     /*
             3 test method'u olusturup asagidaki gorevi tamamlayin
         1. Test
             -  https://the-internet.herokuapp.com/javascript_alerts adresine gidin
