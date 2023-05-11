@@ -42,6 +42,7 @@ public class C04_DropdownMenu {
 
     @Test
     public void test01(){
+
         //	Arama kutusunun yanindaki kategori menusundeki kategori sayisinin 45 oldugunu test edin
         // Element dropdown menu oldugu icin Select class'indan olusturacagimiz
         // obje ile ilgili method'lari kullanmaliyiz

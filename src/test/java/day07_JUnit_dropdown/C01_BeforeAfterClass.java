@@ -22,7 +22,7 @@ public class C01_BeforeAfterClass {
     //	○ wrongTitleTest => Sayfa basliginin “youtube” olmadigini dogrulayin
 
     //JUnit'te BeforeClass ve AfterClass kullanıyorsak static yapmak zorundayız
-    //test nc'de static olma mecburiyeti yok
+    //TestNG'de (Test enci) static olma mecburiyeti yok
     //static olan methodun içinde static olmayan driver'ı kullanamayız (kırmızıya boyar)
     //driver'ı da static yapmalıyız
 
