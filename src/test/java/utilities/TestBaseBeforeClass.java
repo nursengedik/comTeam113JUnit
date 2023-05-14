@@ -27,6 +27,7 @@ public class TestBaseBeforeClass {
 
     @AfterClass
     public static void teardown(){
-        driver.close();
+
+        driver.quit();
     }
 }
