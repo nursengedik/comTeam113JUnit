@@ -12,7 +12,7 @@ public class C02_WebTables extends TestBase {
     @Test
     public void test01(){
         //  1. “https://demoqa.com/webtables” sayfasina gidin
-        driver.get("https://demoqa.com/webtables");
+
         //  2. Headers da bulunan basliklari yazdirin
         List<WebElement> basliklarList = driver.findElements(By.xpath("//div[@role='columnheader']"));
         for (WebElement eachHeader: basliklarList
