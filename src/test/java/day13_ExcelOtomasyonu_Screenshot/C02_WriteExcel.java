@@ -14,6 +14,7 @@ public class C02_WriteExcel {
 
     @Test
     public void test01() throws IOException {
+
         String dosyaYolu= System.getProperty("user.dir")+"/src/test/java/day12_webTables_excelOtomasyon/ulkeler.xlsx";
         FileInputStream fis = new FileInputStream(dosyaYolu);
         Workbook workbook = WorkbookFactory.create(fis);
